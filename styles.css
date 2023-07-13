@@ -37,6 +37,7 @@ main {
 .google-logo {
     max-width: 50%;
     height: auto;
+    align-self: center;
 }
 
 .search {
@@ -77,4 +78,31 @@ main {
     background-color: #4285F4;
     color: #fff; 
     border-radius: 5px;
+}
+
+.advanced-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    max-width: 500px;
+    width: 100px;
+}
+
+.search-field label {
+    flex: 0 0 200px;
+    white-space: nowrap;
+}
+
+.search-field input[type="text"] {
+    flex: 1;
+}
+
+.search-button {
+    margin-top: 10px;
 }
