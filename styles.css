@@ -74,12 +74,7 @@ main {
 }
 
 .blue-button {
-    background-color: #4285F4 !important;
-    color: #fff !important;
-}
-
-.blue-button {
-    background-color: #4285F4 !important;
-    color: #fff !important; 
+    background-color: #4285F4;
+    color: #fff; 
     border-radius: 5px;
 }
