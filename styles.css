@@ -35,9 +35,8 @@ main {
 }
 
 .google-logo {
-    max-width: 20%;
-    height: auto;
-    align-self: center;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .search {
